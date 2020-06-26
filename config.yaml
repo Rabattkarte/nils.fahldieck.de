@@ -1,0 +1,25 @@
+baseURL: 'https://nils.fahldieck.de/'
+defaultContentLanguage: de
+disableHugoGeneratorInject: true
+languageCode: de-DE
+params:
+  contacts:
+    email: nils@fahldieck.de
+    github: rabattkarte
+    keybase: rabattkarte
+    linkedin: nfahldieck
+    xing: Nils_Fahldieck
+  footer:
+    copyright: '© 2019-2020 Nils Fahldieck. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+    photoCredit: '[FOTORAUM Hannover](https://fotoraum-hannover.de/)'
+    poweredBy: true
+  meta:
+    keywords: 'nfahldieck, n.fahldieck, Nils Fahldieck, Rabattkarte, linux, administrator, architect, aws, amazon, cloud'
+  profile:
+    bio: Linux Administrator mit einer Vorliebe zu Cloudtechnologien und Freude an der Verwaltung von großen Systemlandschaften
+    firstname: Nils
+    lastname: Fahldieck
+    portrait: /images/nfahldieck_portrait.jpg
+    title: Cloud Consultant
+theme: hugo-awesome-identity
+title: Nils Fahldieck · Cloud Consultant
