@@ -2,7 +2,57 @@ baseURL: /
 title: Nils Fahldieck · Senior Multi-Cloud Consultant
 theme: hugo-coder
 
-defaultContentLanguage: en
+# languageCode: en # used for RSS, see https://gohugo.io/getting-started/configuration/#languagecode
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+
+enableEmoji: true
+paginate: 20
+
+pygmentsStyle: dracula
+pygmentsCodeFences: true # Enable codeblocks in fences (```)
+pygmentsCodeFencesGuessSyntax: true
+
+languages:
+  de:
+    languageName: ':de:'
+    contentDir: content/de
+    params:
+      footerContent: Foto von <a href="https://www.tobiaskoch.net/">Tobias Koch.</a>
+    menu:
+      main:
+        - name: Über mich
+          url: about/
+          weight: 1
+        - name: Blog
+          url: blog/
+          weight: 2
+        - name: Projekte
+          url: projects/
+          weight: 3
+        - name: Kontakt
+          url: contact/
+          weight: 4
+
+  en:
+    languageName: ':us:'
+    contentDir: content/en
+    params:
+      footerContent: Photo by <a href="https://www.tobiaskoch.net/">Tobias Koch.</a>
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 1
+        - name: Blog
+          url: blog/
+          weight: 2
+        - name: Projects
+          url: projects/
+          weight: 3
+        - name: Contact me
+          url: contact/
+          weight: 4
 
 params:
   avatarURL: images/avatar.jpg
@@ -10,12 +60,12 @@ params:
   description: Nils Fahldieck · Senior Multi-Cloud Consultant
   info: I am on a journey to make cloud-native the new normal
 
-  hideColorSchemeToggle: false
-  colorScheme: auto
-
   hideCopyright: true
-  footerContent: |
-    Photo by <a href="https://www.tobiaskoch.net/">Tobias Koch.</a>
+  dateFormat: '2006-01-02' # ISO style dates
+  maxSeeAlsoItems: 5
+
+  colorScheme: auto
+  hideColorSchemeToggle: false
 
   keywords: >-
     Nils Fahldieck,
@@ -51,3 +101,41 @@ params:
       name: fa fa-mail
       url: mailto:nils@fahldieck.de
       weight: 50
+
+  # Let's figure out what those are used for
+  taxonomies:
+    author: authors
+    category: categories
+    series: series
+    tag: tags
+
+  # Let's figure out what Content Security Policy (CSP) is needed for
+  csp:
+    childsrc:
+      - "'self'"
+    connectsrc:
+      - "'self'"
+      - https://www.google-analytics.com
+    fontsrc:
+      - "'self'"
+      - https://fonts.gstatic.com
+      - https://cdn.jsdelivr.net/
+    formaction:
+      - "'self'"
+    framesrc:
+      - "'self'"
+    imgsrc:
+      - "'self'"
+    objectsrc:
+      - "'none'"
+    prefetchsrc:
+      - "'self'"
+    scriptsrc:
+      - "'self'"
+      - "'unsafe-inline'"
+      - https://www.google-analytics.com
+    stylesrc:
+      - "'self'"
+      - "'unsafe-inline'"
+      - https://fonts.googleapis.com/
+      - https://cdn.jsdelivr.net/
