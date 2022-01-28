@@ -1,3 +1,3 @@
-[submodule "themes/hugo-awesome-identity"]
-	path = themes/hugo-awesome-identity
-	url = git@github.com:Rabattkarte/hugo-awesome-identity.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
