@@ -1,25 +1,53 @@
-baseURL: 'https://nils.fahldieck.de/'
-defaultContentLanguage: de
-disableHugoGeneratorInject: true
-languageCode: de-DE
+baseURL: /
+title: Nils Fahldieck · Senior Multi-Cloud Consultant
+theme: hugo-coder
+
+defaultContentLanguage: en
+
 params:
-  contacts:
-    email: nils@fahldieck.de
-    github: rabattkarte
-    keybase: rabattkarte
-    linkedin: nfahldieck
-    xing: Nils_Fahldieck
-  footer:
-    copyright: '© 2019-2020 Nils Fahldieck. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
-    photoCredit: '[FOTORAUM Hannover](https://fotoraum-hannover.de/)'
-    poweredBy: true
-  meta:
-    keywords: 'nfahldieck, n.fahldieck, Nils Fahldieck, Rabattkarte, linux, administrator, architect, aws, amazon, cloud, DevOps, cloud native, consultant, consultancy'
-  profile:
-    bio: Linux Administrator mit einer Vorliebe zu Cloudtechnologien und Freude an der Verwaltung von großen Systemlandschaften
-    firstname: Nils
-    lastname: Fahldieck
-    portrait: /images/nfahldieck_portrait.jpg
-    title: Cloud Consultant
-theme: hugo-awesome-identity
-title: Nils Fahldieck · Cloud Consultant
+  avatarURL: images/avatar.jpg
+  author: Nils Fahldieck
+  description: Nils Fahldieck · Senior Multi-Cloud Consultant
+  info: I am on a journey to make cloud-native the new normal
+
+  hideColorSchemeToggle: false
+  colorScheme: auto
+
+  hideCopyright: true
+  footerContent: |
+    Photo by <a href="https://www.tobiaskoch.net/">Tobias Koch.</a>
+
+  keywords: >-
+    Nils Fahldieck,
+    Rabattkarte,
+    administrator,
+    Amazon,
+    AWS,
+    Azure,
+    cloud-native,
+    cloud,
+    consultancy,
+    consultant,
+    DevOps,
+    k8s,
+    Kubernetes,
+    Linux,
+    Microsoft
+
+  social:
+    - icon: fa fa-github-square
+      name: GitHub
+      url: https://github.com/Rabattkarte
+      weight: 10
+    - icon: fa fa-linkedin-square
+      name: LinkedIn
+      url: https://linkedin.com/in/nfahldieck
+      weight: 30
+    - icon: fa fa-xing-square
+      name: Xing
+      url: https://xing.com/profile/Nils_Fahldieck
+      weight: 40
+    - icon: fa fa-envelope-square
+      name: fa fa-mail
+      url: mailto:nils@fahldieck.de
+      weight: 50
