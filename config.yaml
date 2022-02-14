@@ -15,7 +15,7 @@ params:
 
   hideCopyright: true
   footerContent: |
-    Photo by <a href="https://www.tobiaskoch.net/">Tobias Koch.</a>
+    Photo by <a href="https://www.tobiaskoch.net/">Tobias Koch</a>.
 
   keywords: >-
     Nils Fahldieck,
