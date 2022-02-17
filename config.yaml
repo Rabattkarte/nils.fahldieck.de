@@ -47,6 +47,10 @@ params:
       name: Xing
       url: https://xing.com/profile/Nils_Fahldieck
       weight: 40
+    - icon: fa fa-twitter-square
+      name: Twitter
+      url: https://twitter.com/rabattkarte
+      weight: 42
     - icon: fa fa-envelope-square
       name: fa fa-mail
       url: mailto:nils@fahldieck.de
