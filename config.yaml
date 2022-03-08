@@ -35,23 +35,27 @@ params:
     Microsoft
 
   social:
-    - icon: fa fa-github-square
+    - icon: fa fa-github
       name: GitHub
       url: https://github.com/Rabattkarte
       weight: 10
-    - icon: fa fa-linkedin-square
+    - icon: fa fa-linkedin
       name: LinkedIn
       url: https://linkedin.com/in/nfahldieck
       weight: 30
-    - icon: fa fa-xing-square
+    - icon: fa fa-xing
       name: Xing
       url: https://xing.com/profile/Nils_Fahldieck
       weight: 40
-    - icon: fa fa-twitter-square
+    - icon: fa fa-trophy
+      name: Twitter
+      url: https://www.credly.com/users/nils-fahldieck/badges
+      weight: 50
+    - icon: fa fa-twitter
       name: Twitter
       url: https://twitter.com/rabattkarte
-      weight: 42
-    - icon: fa fa-envelope-square
+      weight: 60
+    - icon: fa fa-envelope
       name: fa fa-mail
       url: mailto:nils@fahldieck.de
-      weight: 50
+      weight: 70
