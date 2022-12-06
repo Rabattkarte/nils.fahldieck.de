@@ -1,5 +1,5 @@
 baseURL: /
-title: Nils Fahldieck · Senior Multi-Cloud Consultant
+title: Nils Fahldieck · Solutions Engineer
 theme: hugo-coder
 
 defaultContentLanguage: en
@@ -7,8 +7,8 @@ defaultContentLanguage: en
 params:
   avatarURL: images/avatar.jpg
   author: Nils Fahldieck
-  description: Nils Fahldieck · Senior Multi-Cloud Consultant
-  info: I am on a journey to make cloud-native the new normal
+  description: Nils Fahldieck · Solutions Engineer
+  info: Multi-cloud adoption is possible!
 
   hideColorSchemeToggle: false
   colorScheme: auto
@@ -32,7 +32,8 @@ params:
     k8s,
     Kubernetes,
     Linux,
-    Microsoft
+    Microsoft,
+    HashiCorp
 
   social:
     - icon: fa fa-github
@@ -48,14 +49,10 @@ params:
       url: https://xing.com/profile/Nils_Fahldieck
       weight: 40
     - icon: fa fa-trophy
-      name: Twitter
+      name: Credly
       url: https://www.credly.com/users/nils-fahldieck/badges
       weight: 50
-    - icon: fa fa-twitter
-      name: Twitter
-      url: https://twitter.com/rabattkarte
-      weight: 60
     - icon: fa fa-envelope
-      name: fa fa-mail
+      name: E-mail
       url: mailto:nils@fahldieck.de
       weight: 70
