@@ -48,6 +48,10 @@ params:
       name: Xing
       url: https://xing.com/profile/Nils_Fahldieck
       weight: 40
+    - icon: fa fa-medium
+      name: Medium
+      url: https://rabattkarte.medium.com
+      weight: 41
     - icon: fa fa-trophy
       name: Credly
       url: https://www.credly.com/users/nils-fahldieck/badges
