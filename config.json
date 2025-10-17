@@ -1,0 +1,42 @@
+{
+  "baseURL": "/",
+  "title": "Nils Fahldieck · Solutions Engineer",
+  "theme": "hugo-coder",
+  "defaultContentLanguage": "en",
+  "languagecode": "en",
+  "params": {
+    "author": "Nils Fahldieck",
+    "description": "Nils Fahldieck · Solutions Engineer",
+    "gravatar": "nils@fahldieck.de",
+    "info": "Multi-cloud adoption is possible!",
+    "colorScheme": "auto",
+    "hideColorSchemeToggle": false,
+    "keywords": "Nils Fahldieck, Rabattkarte, administrator, Amazon, AWS, Azure, cloud-native, cloud, consultancy, consultant, DevOps, k8s, Kubernetes, Linux, Microsoft, HashiCorp",
+    "social": [
+      {
+        "name": "GitHub",
+        "icon": "fa fa-github",
+        "url": "https://github.com/Rabattkarte",
+        "weight": 10
+      },
+      {
+        "icon": "fa fa-linkedin",
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/nfahldieck",
+        "weight": 30
+      },
+      {
+        "icon": "fa fa-trophy",
+        "name": "Credly",
+        "url": "https://www.credly.com/users/nils-fahldieck/badges",
+        "weight": 50
+      },
+      {
+        "icon": "fa fa-envelope",
+        "name": "E-mail",
+        "url": "mailto:nils@fahldieck.de",
+        "weight": 70
+      }
+    ]
+  }
+}
