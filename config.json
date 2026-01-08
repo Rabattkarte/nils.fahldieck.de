@@ -1,12 +1,12 @@
 {
   "baseURL": "/",
-  "title": "Nils Fahldieck · Solutions Engineer",
+  "title": "Nils Fahldieck · Solutions Architect Specialist",
   "theme": "hugo-coder",
   "defaultContentLanguage": "en",
   "languagecode": "en",
   "params": {
     "author": "Nils Fahldieck",
-    "description": "Nils Fahldieck · Solutions Engineer",
+    "description": "Nils Fahldieck · Solutions Architect Specialist",
     "gravatar": "nils@fahldieck.de",
     "info": "Multi-cloud adoption is possible!",
     "colorScheme": "auto",
