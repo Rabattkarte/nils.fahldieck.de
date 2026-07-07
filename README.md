@@ -19,10 +19,10 @@ git submodule update --init --recursive
 
 ## Deployment
 
-To deploy the site to an ssh location, run the following:
+This site is deployed natively with GitHub Pages and GitHub Actions.
 
-```sh
-export deploy_host=<my SSH host>
-export deploy_dest=<my web dir on that host>
-bash .ci/deploy.sh
-```
+The workflow builds the site with Hugo and deploys it via the official `actions/deploy-pages` action.
+
+Deployment best practices are based on the upstream Hugo guide:
+
+- [Host on GitHub Pages (Hugo)](https://gohugo.io/host-and-deploy/host-on-github-pages/)

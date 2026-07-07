@@ -1,9 +1,14 @@
 {
-  "baseURL": "/",
+  "baseURL": "https://nils.fahldieck.de/",
   "title": "Nils Fahldieck · Solutions Architect Specialist",
   "theme": "hugo-coder",
   "defaultContentLanguage": "en",
   "languagecode": "en",
+  "caches": {
+    "images": {
+      "dir": ":cacheDir/images"
+    }
+  },
   "params": {
     "author": "Nils Fahldieck",
     "description": "Nils Fahldieck · Solutions Architect Specialist",
