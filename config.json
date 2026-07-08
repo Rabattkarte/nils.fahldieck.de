@@ -1,0 +1,160 @@
+{
+  "baseURL": "/",
+  "title": "Nils Fahldieck · Senior Multi-Cloud Consultant",
+  "theme": "hugo-coder",
+  "defaultContentLanguage": "de",
+  "defaultContentLanguageInSubdir": true,
+  "enableEmoji": true,
+  "paginate": 20,
+  "pygmentsStyle": "dracula",
+  "pygmentsCodeFences": true,
+  "pygmentsCodeFencesGuessSyntax": true,
+  "languages": {
+    "de": {
+      "languageName": ":de:",
+      "contentDir": "content/de",
+      "params": {
+        "footerContent": "Foto von <a href=\"https://www.tobiaskoch.net/\">Tobias Koch.</a>"
+      },
+      "menu": {
+        "main": [
+          {
+            "name": "Über mich",
+            "url": "about/",
+            "weight": 1
+          },
+          {
+            "name": "Blog",
+            "url": "blog/",
+            "weight": 2
+          },
+          {
+            "name": "Projekte",
+            "url": "projects/",
+            "weight": 3
+          },
+          {
+            "name": "Kontakt",
+            "url": "contact/",
+            "weight": 4
+          }
+        ]
+      }
+    },
+    "en": {
+      "languageName": ":us:",
+      "contentDir": "content/en",
+      "params": {
+        "footerContent": "Photo by <a href=\"https://www.tobiaskoch.net/\">Tobias Koch.</a>"
+      },
+      "menu": {
+        "main": [
+          {
+            "name": "About",
+            "url": "about/",
+            "weight": 1
+          },
+          {
+            "name": "Blog",
+            "url": "blog/",
+            "weight": 2
+          },
+          {
+            "name": "Projects",
+            "url": "projects/",
+            "weight": 3
+          },
+          {
+            "name": "Contact me",
+            "url": "contact/",
+            "weight": 4
+          }
+        ]
+      }
+    }
+  },
+  "params": {
+    "avatarURL": "images/avatar.jpg",
+    "author": "Nils Fahldieck",
+    "description": "Nils Fahldieck · Senior Multi-Cloud Consultant",
+    "info": "I am on a journey to make cloud-native the new normal",
+    "hideCopyright": true,
+    "dateFormat": "2006-01-02",
+    "maxSeeAlsoItems": 5,
+    "colorScheme": "auto",
+    "hideColorSchemeToggle": false,
+    "keywords": "Nils Fahldieck, Rabattkarte, administrator, Amazon, AWS, Azure, cloud-native, cloud, consultancy, consultant, DevOps, k8s, Kubernetes, Linux, Microsoft",
+    "social": [
+      {
+        "icon": "fa fa-github-square",
+        "name": "GitHub",
+        "url": "https://github.com/Rabattkarte",
+        "weight": 10
+      },
+      {
+        "icon": "fa fa-linkedin-square",
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/nfahldieck",
+        "weight": 30
+      },
+      {
+        "icon": "fa fa-xing-square",
+        "name": "Xing",
+        "url": "https://xing.com/profile/Nils_Fahldieck",
+        "weight": 40
+      },
+      {
+        "icon": "fa fa-envelope-square",
+        "name": "fa fa-mail",
+        "url": "mailto:nils@fahldieck.de",
+        "weight": 50
+      }
+    ],
+    "taxonomies": {
+      "author": "authors",
+      "category": "categories",
+      "series": "series",
+      "tag": "tags"
+    },
+    "csp": {
+      "childsrc": [
+        "'self'"
+      ],
+      "connectsrc": [
+        "'self'",
+        "https://www.google-analytics.com"
+      ],
+      "fontsrc": [
+        "'self'",
+        "https://fonts.gstatic.com",
+        "https://cdn.jsdelivr.net/"
+      ],
+      "formaction": [
+        "'self'"
+      ],
+      "framesrc": [
+        "'self'"
+      ],
+      "imgsrc": [
+        "'self'"
+      ],
+      "objectsrc": [
+        "'none'"
+      ],
+      "prefetchsrc": [
+        "'self'"
+      ],
+      "scriptsrc": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://www.google-analytics.com"
+      ],
+      "stylesrc": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://fonts.googleapis.com/",
+        "https://cdn.jsdelivr.net/"
+      ]
+    }
+  }
+}
