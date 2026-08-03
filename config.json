@@ -25,25 +25,25 @@
     "keywords": "Nils Fahldieck, Rabattkarte, administrator, Amazon, AWS, Azure, cloud-native, cloud, consultancy, consultant, DevOps, k8s, Kubernetes, Linux, Microsoft, HashiCorp",
     "social": [
       {
-        "name": "GitHub",
-        "icon": "fa fa-github",
-        "url": "https://github.com/Rabattkarte",
+        "icon": "fa fa-trophy fa-2x",
+        "name": "Credly",
+        "url": "https://www.credly.com/users/nils-fahldieck/badges",
         "weight": 10
       },
       {
-        "icon": "fa fa-linkedin",
+        "name": "GitHub",
+        "icon": "fa-brands fa-github fa-2x",
+        "url": "https://github.com/Rabattkarte",
+        "weight": 20
+      },
+      {
+        "icon": "fa fa-linkedin fa-2x",
         "name": "LinkedIn",
         "url": "https://linkedin.com/in/nfahldieck",
         "weight": 30
       },
       {
-        "icon": "fa fa-trophy",
-        "name": "Credly",
-        "url": "https://www.credly.com/users/nils-fahldieck/badges",
-        "weight": 50
-      },
-      {
-        "icon": "fa fa-envelope",
+        "icon": "fa fa-envelope fa-2x",
         "name": "E-mail",
         "url": "mailto:nils@fahldieck.de",
         "weight": 70
