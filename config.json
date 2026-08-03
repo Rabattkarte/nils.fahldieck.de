@@ -9,7 +9,7 @@
   "title": "Nils Fahldieck · Solutions Architect Specialist",
   "theme": "hugo-coder",
   "defaultContentLanguage": "en",
-  "languagecode": "en",
+  "locale": "en",
   "caches": {
     "images": {
       "dir": ":cacheDir/images"
