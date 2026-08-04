@@ -2,8 +2,8 @@
   "module": {
     "mounts": [
       { "source": "static", "target": "static" },
-      { "source": "submodules/nightnight/nn.js", "target": "static/js/nn.js" },
-      { "source": "submodules/nightnight/static", "target": "static/js/static" }
+      { "source": "submodules/nightnight/nn.js", "target": "assets/js/nn.js" },
+      { "source": "submodules/nightnight/static", "target": "assets/js/static" }
     ]
   },
   "baseURL": "https://nils.fahldieck.de/",

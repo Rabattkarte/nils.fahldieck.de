@@ -1,1 +1,2 @@
-<script async src="/js/nn.js?sleep=2200&wake=0600&timeFormat=24&lang={{ .Site.Language.Lang }}"></script>
+{{ $script := resources.Get "js/nn.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}?sleep=2200&wake=0600&timeFormat=24&lang={{ .Site.Language.Lang }}" integrity="{{ $script.Data.Integrity }}"></script>
