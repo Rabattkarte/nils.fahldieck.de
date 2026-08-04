@@ -1,2 +1,7 @@
+{{ if hugo.IsServer }}
+{{ $script := resources.Get "js/nn.js" }}
+<script src="{{ $script.RelPermalink }}"></script>
+{{ else }}
 {{ $script := resources.Get "js/nn.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $script.RelPermalink }}?sleep=2200&wake=0600&timeFormat=24&lang={{ .Site.Language.Lang }}" integrity="{{ $script.Data.Integrity }}"></script>
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+{{ end }}

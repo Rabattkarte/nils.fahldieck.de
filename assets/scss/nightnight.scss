@@ -1,0 +1,53 @@
+@import "../../themes/hugo-coder/assets/scss/variables";
+
+dialog.nightnight {
+  background: $bg-color-dark;
+  color: $fg-color-dark;
+  padding: clamp(2rem, 10%, 8rem);
+  border: none;
+  width: 100dvw;
+  height: 100dvh;
+  max-width: 100%;
+  max-height: 100%;
+
+  a, button {
+    color: $link-color-dark;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font: inherit;
+    padding: 0;
+    text-align: left;
+  }
+}
+
+.nightnight-timing {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  font-weight: 600;
+  margin-top: 4rem;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+}
+
+.nightnight-skip {
+  margin-top: 4rem;
+}
+
+.nightnight-credits {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}

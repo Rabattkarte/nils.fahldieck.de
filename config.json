@@ -1,11 +1,4 @@
 {
-  "module": {
-    "mounts": [
-      { "source": "static", "target": "static" },
-      { "source": "submodules/nightnight/nn.js", "target": "assets/js/nn.js" },
-      { "source": "submodules/nightnight/static", "target": "assets/js/static" }
-    ]
-  },
   "baseURL": "https://nils.fahldieck.de/",
   "title": "Nils Fahldieck · Solutions Architect Specialist",
   "theme": "hugo-coder",
@@ -21,6 +14,7 @@
     "description": "Nils Fahldieck · Solutions Architect Specialist",
     "gravatar": "nils@fahldieck.de",
     "info": "Multi-cloud adoption is possible!",
+    "customSCSS": ["scss/nightnight.scss"],
     "colorScheme": "auto",
     "hideColorSchemeToggle": false,
     "keywords": "Nils Fahldieck, Rabattkarte, administrator, Amazon, AWS, Azure, cloud-native, cloud, consultancy, consultant, DevOps, k8s, Kubernetes, Linux, Microsoft, HashiCorp",
